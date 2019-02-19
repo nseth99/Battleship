@@ -1,0 +1,502 @@
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Runner: processes
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Chooser: simple
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration suite_name = "test suite for A6"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration cache_filename = "/home/vagrant/Desktop/cs3110-a6/a6/_build/oUnit-$(suite_name).cache"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration display = "true"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration results_style_1_X = "false"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration verbose = "false"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration health_check_interval = "1."
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration testdata_dir = "none"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration chooser = "simple"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration output_html_dir = "none"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration processes_kill_period = "5."
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration runner = "processes"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration shards = "2"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration processes_grace_period = "5."
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration log_encoding = "utf-8"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration output_junit_file = "none"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Configuration output_file = "/home/vagrant/Desktop/cs3110-a6/a6/_build/oUnit-$(suite_name)-$(shard_id).log"
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Using 2 workers maximum.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Starting worker number vm3110-2018fa#01.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Worker vm3110-2018fa#01 started.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Starting worker number vm3110-2018fa#02.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Worker vm3110-2018fa#02 started.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:1:init board, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:1:init board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:1:init board, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:1:init board, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:1:init board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:1:init board, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:0:init_ships is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:1:init board, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:1:init board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:1:init board, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:2:init player, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:2:init player, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:2:init player, test suite for A6:0:init_ships.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:3:int_pos, test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:3:int_pos.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:3:int_pos, test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:3:int_pos is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:3:int_pos, test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:2:init player is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:3:int_pos, test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:3:int_pos, test suite for A6:2:init player.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:4:Carrier, test suite for A6:3:int_pos.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:4:Carrier, test suite for A6:3:int_pos.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:3:int_pos.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:4:Carrier, test suite for A6:3:int_pos.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:5:Battleship, test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:5:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:5:Battleship, test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:4:Carrier is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:5:Battleship, test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:5:Battleship is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:5:Battleship, test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:5:Battleship, test suite for A6:4:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:6:Destroyer, test suite for A6:5:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:6:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:6:Destroyer, test suite for A6:5:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:6:Destroyer is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:6:Destroyer, test suite for A6:5:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:5:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:6:Destroyer, test suite for A6:5:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:7:Submarine, test suite for A6:6:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:7:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:7:Submarine, test suite for A6:6:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:7:Submarine is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:7:Submarine, test suite for A6:6:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:6:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:7:Submarine, test suite for A6:6:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:8:Patrol, test suite for A6:7:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:8:Patrol, test suite for A6:7:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:7:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:8:Patrol, test suite for A6:7:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:9:Carrier, test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:9:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:9:Carrier, test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:9:Carrier is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:9:Carrier, test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:8:Patrol is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:9:Carrier, test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:9:Carrier, test suite for A6:8:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:10:Battleship, test suite for A6:9:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:10:Battleship, test suite for A6:9:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:9:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:10:Battleship, test suite for A6:9:Carrier.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:11:Destroyer, test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:11:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:11:Destroyer, test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:10:Battleship is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:11:Destroyer, test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:11:Destroyer is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:11:Destroyer, test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:11:Destroyer, test suite for A6:10:Battleship.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:12:Submarine, test suite for A6:11:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:12:Submarine, test suite for A6:11:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:11:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:12:Submarine, test suite for A6:11:Destroyer.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:13:Patrol, test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:13:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:13:Patrol, test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:13:Patrol is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:13:Patrol, test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:12:Submarine is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:13:Patrol, test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:13:Patrol, test suite for A6:12:Submarine.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:14:win, test suite for A6:13:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:14:win, test suite for A6:13:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:13:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:14:win, test suite for A6:13:Patrol.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:15:no win, test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:15:no win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:15:no win, test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:15:no win is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:15:no win, test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:14:win is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:15:no win, test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:15:no win, test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:15:no win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:15:no win, test suite for A6:14:win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:16:test 1, test suite for A6:15:no win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:16:test 1, test suite for A6:15:no win.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:17:test 2, test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:17:test 2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:17:test 2, test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:16:test 1 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:17:test 2, test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:17:test 2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:17:test 2, test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:17:test 2, test suite for A6:16:test 1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:18:test board, test suite for A6:17:test 2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:18:test board, test suite for A6:17:test 2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:17:test 2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:18:test board, test suite for A6:17:test 2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:19:test sp board, test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:19:test sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:19:test sp board, test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:19:test sp board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:19:test sp board, test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:18:test board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:19:test sp board, test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:19:test sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:19:test sp board, test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:19:test sp board, test suite for A6:18:test board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:20:test sp pegboard sp, test suite for A6:19:test sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:20:test sp pegboard sp, test suite for A6:19:test sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:21:test sp hit J10, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:21:test sp hit J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:21:test sp hit J10, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:21:test sp hit J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:21:test sp hit J10, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:20:test sp pegboard sp is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:21:test sp hit J10, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:21:test sp hit J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:21:test sp hit J10, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:21:test sp hit J10, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:22:test sp words, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:22:test sp words, test suite for A6:20:test sp pegboard sp.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:23:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:23:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:23:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:23:test sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:23:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:23:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:23:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:24:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:24:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:22:test sp words is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:24:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:24:test sp place J10, test suite for A6:22:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:25:test case1 sp place J10, test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:25:test case1 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:25:test case1 sp place J10, test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:25:test case1 sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:25:test case1 sp place J10, test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:24:test sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:25:test case1 sp place J10, test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:25:test case1 sp place J10, test suite for A6:24:test sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:26:test case2 sp place J10, test suite for A6:25:test case1 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:26:test case2 sp place J10, test suite for A6:25:test case1 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:25:test case1 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:26:test case2 sp place J10, test suite for A6:25:test case1 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:27:test case3 sp place J10, test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:27:test case3 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:27:test case3 sp place J10, test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:26:test case2 sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:27:test case3 sp place J10, test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:27:test case3 sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:27:test case3 sp place J10, test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:27:test case3 sp place J10, test suite for A6:26:test case2 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:28:test case2 place J10, test suite for A6:27:test case3 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:28:test case2 place J10, test suite for A6:27:test case3 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:27:test case3 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:28:test case2 place J10, test suite for A6:27:test case3 sp place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:29:test case3 place J10, test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:29:test case3 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:29:test case3 place J10, test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:28:test case2 place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:29:test case3 place J10, test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:29:test case3 place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:29:test case3 place J10, test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:29:test case3 place J10, test suite for A6:28:test case2 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:30:test sp words, test suite for A6:29:test case3 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:30:test sp words, test suite for A6:29:test case3 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:29:test case3 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:30:test sp words, test suite for A6:29:test case3 place J10.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:31:test sp quit, test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:31:test sp quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:31:test sp quit, test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:31:test sp quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:31:test sp quit, test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:30:test sp words is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:31:test sp quit, test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:31:test sp quit, test suite for A6:30:test sp words.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:32:test case quit, test suite for A6:31:test sp quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:32:test case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:32:test case quit, test suite for A6:31:test sp quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:32:test case quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:32:test case quit, test suite for A6:31:test sp quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:31:test sp quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:32:test case quit, test suite for A6:31:test sp quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:33:test sp case quit, test suite for A6:32:test case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:33:test sp case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:33:test sp case quit, test suite for A6:32:test case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:33:test sp case quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:33:test sp case quit, test suite for A6:32:test case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:32:test case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:33:test sp case quit, test suite for A6:32:test case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:34:test sp randomize, test suite for A6:33:test sp case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:34:test sp randomize, test suite for A6:33:test sp case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:33:test sp case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:34:test sp randomize, test suite for A6:33:test sp case quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:35:test sp random, test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:35:test sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:35:test sp random, test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:35:test sp random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:35:test sp random, test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:34:test sp randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:35:test sp random, test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:35:test sp random, test suite for A6:34:test sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:36:test case randomize, test suite for A6:35:test sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:36:test case randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:36:test case randomize, test suite for A6:35:test sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:36:test case randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:36:test case randomize, test suite for A6:35:test sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:35:test sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:36:test case randomize, test suite for A6:35:test sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:37:test case random, test suite for A6:36:test case randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:37:test case random, test suite for A6:36:test case randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:36:test case randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:37:test case random, test suite for A6:36:test case randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:38:test case sp randomize, test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:38:test case sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:38:test case sp randomize, test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:38:test case sp randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:38:test case sp randomize, test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:37:test case random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:38:test case sp randomize, test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:38:test case sp randomize, test suite for A6:37:test case random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:39:test case sp random, test suite for A6:38:test case sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:39:test case sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:39:test case sp random, test suite for A6:38:test case sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:39:test case sp random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:39:test case sp random, test suite for A6:38:test case sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:38:test case sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:39:test case sp random, test suite for A6:38:test case sp randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:40:test case help, test suite for A6:39:test case sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:40:test case help, test suite for A6:39:test case sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:39:test case sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:40:test case help, test suite for A6:39:test case sp random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:41:test case sp help, test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:41:test case sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:41:test case sp help, test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:41:test case sp help is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:41:test case sp help, test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:40:test case help is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:41:test case sp help, test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:41:test case sp help, test suite for A6:40:test case help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:42:test sp help, test suite for A6:41:test case sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:42:test sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:42:test sp help, test suite for A6:41:test case sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:42:test sp help is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:42:test sp help, test suite for A6:41:test case sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:41:test case sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:42:test sp help, test suite for A6:41:test case sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:43:test empty1, test suite for A6:42:test sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:43:test empty1, test suite for A6:42:test sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:42:test sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:43:test empty1, test suite for A6:42:test sp help.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:44:test empty2, test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:44:test empty2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:44:test empty2, test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:44:test empty2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:44:test empty2, test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:43:test empty1 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:44:test empty2, test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:44:test empty2, test suite for A6:43:test empty1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:45:test inv case hit extra, test suite for A6:44:test empty2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:45:test inv case hit extra.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:45:test inv case hit extra, test suite for A6:44:test empty2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:45:test inv case hit extra is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:45:test inv case hit extra, test suite for A6:44:test empty2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:44:test empty2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:45:test inv case hit extra, test suite for A6:44:test empty2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:46:test inv sp board, test suite for A6:45:test inv case hit extra.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:46:test inv sp board, test suite for A6:45:test inv case hit extra.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:45:test inv case hit extra.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:46:test inv sp board, test suite for A6:45:test inv case hit extra.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:47:test inv pegboard, test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:47:test inv pegboard.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:47:test inv pegboard, test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:47:test inv pegboard is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:47:test inv pegboard, test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:46:test inv sp board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:47:test inv pegboard, test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:47:test inv pegboard, test suite for A6:46:test inv sp board.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:48:test inv quit, test suite for A6:47:test inv pegboard.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:48:test inv quit, test suite for A6:47:test inv pegboard.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:47:test inv pegboard.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:48:test inv quit, test suite for A6:47:test inv pegboard.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:49:test inv random, test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:49:test inv random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:49:test inv random, test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:48:test inv quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:49:test inv random, test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:49:test inv random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:49:test inv random, test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:49:test inv random, test suite for A6:48:test inv quit.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:50:test inv randomize, test suite for A6:49:test inv random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:50:test inv randomize, test suite for A6:49:test inv random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:49:test inv random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:50:test inv randomize, test suite for A6:49:test inv random.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:51:test inv place1, test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:51:test inv place1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:51:test inv place1, test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:51:test inv place1 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:51:test inv place1, test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:50:test inv randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:51:test inv place1, test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:51:test inv place1, test suite for A6:50:test inv randomize.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:52:test inv place2, test suite for A6:51:test inv place1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:52:test inv place2, test suite for A6:51:test inv place1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:51:test inv place1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:52:test inv place2, test suite for A6:51:test inv place1.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:53:test inv place2, test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:53:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:53:test inv place2, test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:53:test inv place2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:53:test inv place2, test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:52:test inv place2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:53:test inv place2, test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:53:test inv place2, test suite for A6:52:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:54:test inv place3, test suite for A6:53:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:54:test inv place3, test suite for A6:53:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:53:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:54:test inv place3, test suite for A6:53:test inv place2.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:55:test inv place4, test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Start test test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:55:test inv place4, test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: Test test suite for A6:55:test inv place4 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:55:test inv place4, test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:54:test inv place3 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:55:test inv place4, test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:55:test inv place4, test suite for A6:54:test inv place3.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Still 2 tests running : test suite for A6:56:test inv place5, test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:56:test inv place5, test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Start test test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Still 2 tests running : test suite for A6:56:test inv place5, test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:56:test inv place5, test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#01 I: End test test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Still 2 tests running : test suite for A6:56:test inv place5, test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 2 tests running: test suite for A6:56:test inv place5, test suite for A6:55:test inv place4.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Still 1 tests running : test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 1 tests running: test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: Test test suite for A6:56:test inv place5 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Still 1 tests running : test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 1 tests running: test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#02 I: End test test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Still 1 tests running : test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 1 tests running: test suite for A6:56:test inv place5.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 0 tests running: .
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Worker vm3110-2018fa#02 has ended.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: 0 tests running: .
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Worker vm3110-2018fa#01 has ended.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Used 2 worker during test execution.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Run 28 tests with shard vm3110-2018fa#01.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Run 29 tests with shard vm3110-2018fa#02.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: ==============
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Summary:
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:56:test inv place5 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:55:test inv place4 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:54:test inv place3 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:53:test inv place2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:52:test inv place2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:51:test inv place1 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:50:test inv randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:49:test inv random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:48:test inv quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:47:test inv pegboard is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:46:test inv sp board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:45:test inv case hit extra is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:44:test empty2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:43:test empty1 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:42:test sp help is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:41:test case sp help is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:40:test case help is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:39:test case sp random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:38:test case sp randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:37:test case random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:36:test case randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:35:test sp random is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:34:test sp randomize is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:33:test sp case quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:32:test case quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:31:test sp quit is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:30:test sp words is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:29:test case3 place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:28:test case2 place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:27:test case3 sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:26:test case2 sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:25:test case1 sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:24:test sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:22:test sp words is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:23:test sp place J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:20:test sp pegboard sp is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:21:test sp hit J10 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:19:test sp board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:18:test board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:17:test 2 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:16:test 1 is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:15:no win is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:14:win is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:13:Patrol is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:12:Submarine is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:11:Destroyer is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:10:Battleship is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:9:Carrier is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:8:Patrol is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:7:Submarine is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:6:Destroyer is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:5:Battleship is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:4:Carrier is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:3:int_pos is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:2:init player is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:0:init_ships is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Test test suite for A6:1:init board is successful.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Ran: 57 tests in: 0.46 seconds.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Cases: 57.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Tried: 57.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Errors: 0.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Failures: 0.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Skip: 0.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Todo: 0.
+2018-11-07T16:39:15+00:00 vm3110-2018fa#00 I: Timeout: 0.

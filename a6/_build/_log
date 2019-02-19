@@ -1,0 +1,36 @@
+### Starting build.
+# Target: game.mli.depends, tags: { package(ANSITerminal), package(oUnit), extension:mli, file:game.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules game.mli > game.mli.depends # cached
+# Target: game.cmi, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:mli, file:game.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o game.cmi game.mli # cached
+# Target: game.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:game.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules game.ml > game.ml.depends # cached
+# Target: board.mli.depends, tags: { package(ANSITerminal), package(oUnit), extension:mli, file:board.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules board.mli > board.mli.depends # cached
+# Target: board.cmi, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:mli, file:board.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o board.cmi board.mli # cached
+# Target: directives.mli.depends, tags: { package(ANSITerminal), package(oUnit), extension:mli, file:directives.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules directives.mli > directives.mli.depends # cached
+# Target: directives.cmi, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:mli, file:directives.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o directives.cmi directives.mli # cached
+# Target: state.mli.depends, tags: { package(ANSITerminal), package(oUnit), extension:mli, file:state.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules state.mli > state.mli.depends # cached
+# Target: state.cmi, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:mli, file:state.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o state.cmi state.mli # cached
+# Target: game.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:game.cmo, file:game.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o game.cmo game.ml # cached
+# Target: board.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:board.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules board.ml > board.ml.depends # cached
+# Target: board.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:board.cmo, file:board.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o board.cmo board.ml # cached
+# Target: directives.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:directives.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules directives.ml > directives.ml.depends # cached
+# Target: directives.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:directives.cmo, file:directives.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o directives.cmo directives.ml # cached
+# Target: state.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:state.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules state.ml > state.ml.depends # cached
+# Target: state.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:state.cmo, file:state.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o state.cmo state.ml # cached
+# Target: game.byte, tags: { package(ANSITerminal), package(oUnit), byte, dont_link_with, extension:byte, file:game.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -package oUnit -package ANSITerminal board.cmo directives.cmo state.cmo game.cmo -o game.byte # cached
+# Compilation successful.
